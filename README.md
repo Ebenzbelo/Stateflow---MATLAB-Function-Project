@@ -17,6 +17,7 @@ dist = abs(input(end) - mean(input));
 isOutlier = dist > 2;
 - Double-click on the MATLAB function in the chart to edit it in the MATLAB Editor. The function signature is populated from the chart. Enter the algorithm in the body of the function.
 <img width="635" height="246" alt="Step 2" src="https://github.com/user-attachments/assets/10650269-fcb0-4395-b4d4-5ee49bac77d1" />
+
 ## Step 3
 
 The transition from NotOutlier to Outlier should occur if detectOutlier(data) returns true. Conversely, the transition from Outlier to NotOutlier should occur if detectOutlier returns false.
